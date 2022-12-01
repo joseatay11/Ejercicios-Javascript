@@ -1,0 +1,10 @@
+let nombre = "José"
+let apellido = "Atay"
+let estudiante = `${nombre} ${apellido}`
+let estudianteMayus = estudiante.toUpperCase()
+let estudianteMinus = estudiante.toLowerCase()
+let estudiante_length = estudiante.length
+let primeraNombre = nombre.substring(0, 1)
+let ultimaApellido = apellido[apellido.length - 1]
+let sinEspacios = estudiante.replace(/ /g, "")
+let nombreEstudiante = estudiante.includes(nombre)
